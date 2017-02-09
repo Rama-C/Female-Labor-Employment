@@ -10,6 +10,6 @@ The desired data which is used for this analysis ,is obtained from three differe
 
 The  data sources  are:
 
-Female salaried workers.This file describes the percentage of all female labor that earns a salary from working.
-Female self-employed .This file describes the percentage of all female labor that works as self-employed workers.
-Female family workers.This file describes the percentage of all female labor that works as contributing family workers.
+Female salaried workers : This file describes the percentage of all female labor that earns a salary from working.
+Female self-employed : This file describes the percentage of all female labor that works as self-employed workers.
+Female family workers : This file describes the percentage of all female labor that works as contributing family workers.
