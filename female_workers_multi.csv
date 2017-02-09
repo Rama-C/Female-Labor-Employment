@@ -1,0 +1,925 @@
+"","year","countries","year_cat","Employment_status","values"
+"1","1980","Australia","[1980,1985]","salaried_worker",86.6
+"2","1980","Belgium","[1980,1985]","salaried_worker",82.5
+"3","1980","Canada","[1980,1985]","salaried_worker",92.1
+"4","1980","France","[1980,1985]","salaried_worker",85.4
+"5","1980","Italy","[1980,1985]","salaried_worker",72.9
+"6","1980","Japan","[1980,1985]","salaried_worker",63.2
+"7","1980","Korea, Rep.","[1980,1985]","salaried_worker",39.2
+"8","1980","Norway","[1980,1985]","salaried_worker",89.5
+"9","1980","Spain","[1980,1985]","salaried_worker",64.5
+"10","1980","United Kingdom","[1980,1985]","salaried_worker",96.1
+"11","1980","United States","[1980,1985]","salaried_worker",93.3
+"12","1981","Australia","[1980,1985]","salaried_worker",87.1
+"13","1981","Belgium","[1980,1985]","salaried_worker",82.3
+"14","1981","Canada","[1980,1985]","salaried_worker",92.4
+"15","1981","France","[1980,1985]","salaried_worker",85.5
+"16","1981","Italy","[1980,1985]","salaried_worker",73.5
+"17","1981","Japan","[1980,1985]","salaried_worker",64.3
+"18","1981","Korea, Rep.","[1980,1985]","salaried_worker",39
+"19","1981","Norway","[1980,1985]","salaried_worker",89.8
+"20","1981","Spain","[1980,1985]","salaried_worker",64.4
+"21","1981","United Kingdom","[1980,1985]","salaried_worker",95.6
+"22","1981","United States","[1980,1985]","salaried_worker",93.2
+"23","1982","Australia","[1980,1985]","salaried_worker",87.2
+"24","1982","Belgium","[1980,1985]","salaried_worker",82.2
+"25","1982","Canada","[1980,1985]","salaried_worker",92
+"26","1982","France","[1980,1985]","salaried_worker",85.7
+"27","1982","Italy","[1980,1985]","salaried_worker",74
+"28","1982","Japan","[1980,1985]","salaried_worker",64.5
+"29","1982","Korea, Rep.","[1980,1985]","salaried_worker",39.9
+"30","1982","Norway","[1980,1985]","salaried_worker",90.3
+"31","1982","Spain","[1980,1985]","salaried_worker",65.5
+"32","1982","United Kingdom","[1980,1985]","salaried_worker",95.1
+"33","1982","United States","[1980,1985]","salaried_worker",93
+"34","1983","Australia","[1980,1985]","salaried_worker",87.3
+"35","1983","Belgium","[1980,1985]","salaried_worker",81.8
+"36","1983","Canada","[1980,1985]","salaried_worker",91.8
+"37","1983","France","[1980,1985]","salaried_worker",86
+"38","1983","Italy","[1980,1985]","salaried_worker",73.3
+"39","1983","Japan","[1980,1985]","salaried_worker",65.7
+"40","1983","Korea, Rep.","[1980,1985]","salaried_worker",42.6
+"41","1983","Norway","[1980,1985]","salaried_worker",91.1
+"42","1983","Spain","[1980,1985]","salaried_worker",65.2
+"43","1983","United Kingdom","[1980,1985]","salaried_worker",94.6
+"44","1983","United States","[1980,1985]","salaried_worker",92.9
+"45","1984","Australia","[1980,1985]","salaried_worker",87.8
+"46","1984","Belgium","[1980,1985]","salaried_worker",81.8
+"47","1984","Canada","[1980,1985]","salaried_worker",91.6
+"48","1984","France","[1980,1985]","salaried_worker",86.4
+"49","1984","Italy","[1980,1985]","salaried_worker",72.7
+"50","1984","Japan","[1980,1985]","salaried_worker",66.5
+"51","1984","Korea, Rep.","[1980,1985]","salaried_worker",46.1
+"52","1984","Norway","[1980,1985]","salaried_worker",91.2
+"53","1984","Spain","[1980,1985]","salaried_worker",65.8
+"54","1984","United Kingdom","[1980,1985]","salaried_worker",92.2
+"55","1984","United States","[1980,1985]","salaried_worker",93
+"56","1985","Australia","[1980,1985]","salaried_worker",87.3
+"57","1985","Belgium","[1980,1985]","salaried_worker",81.9
+"58","1985","Canada","[1980,1985]","salaried_worker",90.9
+"59","1985","France","[1980,1985]","salaried_worker",86.8
+"60","1985","Italy","[1980,1985]","salaried_worker",73.6
+"61","1985","Japan","[1980,1985]","salaried_worker",67.2
+"62","1985","Korea, Rep.","[1980,1985]","salaried_worker",48.2
+"63","1985","Norway","[1980,1985]","salaried_worker",92
+"64","1985","Spain","[1980,1985]","salaried_worker",66.5
+"65","1985","United Kingdom","[1980,1985]","salaried_worker",91.7
+"66","1985","United States","[1980,1985]","salaried_worker",93.2
+"67","1986","Australia","(1985,1990]","salaried_worker",86.8
+"68","1986","Belgium","(1985,1990]","salaried_worker",82
+"69","1986","Canada","(1985,1990]","salaried_worker",92
+"70","1986","France","(1985,1990]","salaried_worker",87.2
+"71","1986","Italy","(1985,1990]","salaried_worker",73.4
+"72","1986","Japan","(1985,1990]","salaried_worker",68.1
+"73","1986","Korea, Rep.","(1985,1990]","salaried_worker",48
+"74","1986","Norway","(1985,1990]","salaried_worker",91.1
+"75","1986","Spain","(1985,1990]","salaried_worker",68
+"76","1986","United Kingdom","(1985,1990]","salaried_worker",92
+"77","1986","United States","(1985,1990]","salaried_worker",93.5
+"78","1987","Australia","(1985,1990]","salaried_worker",87.2
+"79","1987","Belgium","(1985,1990]","salaried_worker",82.1
+"80","1987","Canada","(1985,1990]","salaried_worker",90.1
+"81","1987","France","(1985,1990]","salaried_worker",87.5
+"82","1987","Italy","(1985,1990]","salaried_worker",73.9
+"83","1987","Japan","(1985,1990]","salaried_worker",68.4
+"84","1987","Korea, Rep.","(1985,1990]","salaried_worker",50.2
+"85","1987","Norway","(1985,1990]","salaried_worker",92.2
+"86","1987","Spain","(1985,1990]","salaried_worker",68
+"87","1987","United Kingdom","(1985,1990]","salaried_worker",91
+"88","1987","United States","(1985,1990]","salaried_worker",93.4
+"89","1988","Australia","(1985,1990]","salaried_worker",87.1
+"90","1988","Belgium","(1985,1990]","salaried_worker",82.5
+"91","1988","Canada","(1985,1990]","salaried_worker",90
+"92","1988","France","(1985,1990]","salaried_worker",87.8
+"93","1988","Italy","(1985,1990]","salaried_worker",74.4
+"94","1988","Japan","(1985,1990]","salaried_worker",69.3
+"95","1988","Korea, Rep.","(1985,1990]","salaried_worker",51.2
+"96","1988","Norway","(1985,1990]","salaried_worker",91.6
+"97","1988","Spain","(1985,1990]","salaried_worker",69.1
+"98","1988","United Kingdom","(1985,1990]","salaried_worker",90.9
+"99","1988","United States","(1985,1990]","salaried_worker",93.2
+"100","1989","Australia","(1985,1990]","salaried_worker",87.8
+"101","1989","Belgium","(1985,1990]","salaried_worker",82.4
+"102","1989","Canada","(1985,1990]","salaried_worker",90.2
+"103","1989","France","(1985,1990]","salaried_worker",88.4
+"104","1989","Italy","(1985,1990]","salaried_worker",75.2
+"105","1989","Japan","(1985,1990]","salaried_worker",70.7
+"106","1989","Korea, Rep.","(1985,1990]","salaried_worker",55.2
+"107","1989","Norway","(1985,1990]","salaried_worker",92.3
+"108","1989","Spain","(1985,1990]","salaried_worker",71.5
+"109","1989","United Kingdom","(1985,1990]","salaried_worker",91.1
+"110","1989","United States","(1985,1990]","salaried_worker",93.2
+"111","1990","Australia","(1985,1990]","salaried_worker",87.8
+"112","1990","Belgium","(1985,1990]","salaried_worker",82.5
+"113","1990","Canada","(1985,1990]","salaried_worker",89.9
+"114","1990","France","(1985,1990]","salaried_worker",89
+"115","1990","Italy","(1985,1990]","salaried_worker",75.9
+"116","1990","Japan","(1985,1990]","salaried_worker",72.3
+"117","1990","Korea, Rep.","(1985,1990]","salaried_worker",56.8
+"118","1990","Norway","(1985,1990]","salaried_worker",92.5
+"119","1990","Spain","(1985,1990]","salaried_worker",73.4
+"120","1990","United Kingdom","(1985,1990]","salaried_worker",91.1
+"121","1990","United States","(1985,1990]","salaried_worker",93.3
+"122","1991","Australia","(1990,1995]","salaried_worker",87.4
+"123","1991","Belgium","(1990,1995]","salaried_worker",82.3
+"124","1991","Canada","(1990,1995]","salaried_worker",89.8
+"125","1991","France","(1990,1995]","salaried_worker",89.6
+"126","1991","Italy","(1990,1995]","salaried_worker",76.2
+"127","1991","Japan","(1990,1995]","salaried_worker",74
+"128","1991","Korea, Rep.","(1990,1995]","salaried_worker",57.5
+"129","1991","Norway","(1990,1995]","salaried_worker",93.2
+"130","1991","Spain","(1990,1995]","salaried_worker",74.5
+"131","1991","United Kingdom","(1990,1995]","salaried_worker",91.4
+"132","1991","United States","(1990,1995]","salaried_worker",93.2
+"133","1992","Australia","(1990,1995]","salaried_worker",87.2
+"134","1992","Belgium","(1990,1995]","salaried_worker",82.3
+"135","1992","Canada","(1990,1995]","salaried_worker",89.5
+"136","1992","France","(1990,1995]","salaried_worker",90.2
+"137","1992","Italy","(1990,1995]","salaried_worker",76.4
+"138","1992","Japan","(1990,1995]","salaried_worker",75.4
+"139","1992","Korea, Rep.","(1990,1995]","salaried_worker",57.5
+"140","1992","Norway","(1990,1995]","salaried_worker",93.4
+"141","1992","Spain","(1990,1995]","salaried_worker",74.2
+"142","1992","United Kingdom","(1990,1995]","salaried_worker",92
+"143","1992","United States","(1990,1995]","salaried_worker",93.6
+"144","1993","Australia","(1990,1995]","salaried_worker",86.9
+"145","1993","Belgium","(1990,1995]","salaried_worker",81.9
+"146","1993","Canada","(1990,1995]","salaried_worker",88.8
+"147","1993","France","(1990,1995]","salaried_worker",90.8
+"148","1993","Italy","(1990,1995]","salaried_worker",75.7
+"149","1993","Japan","(1990,1995]","salaried_worker",77
+"150","1993","Korea, Rep.","(1990,1995]","salaried_worker",57.4
+"151","1993","Norway","(1990,1995]","salaried_worker",93.3
+"152","1993","Spain","(1990,1995]","salaried_worker",75
+"153","1993","United Kingdom","(1990,1995]","salaried_worker",92.1
+"154","1993","United States","(1990,1995]","salaried_worker",93.6
+"155","1994","Australia","(1990,1995]","salaried_worker",87.4
+"156","1994","Belgium","(1990,1995]","salaried_worker",82.1
+"157","1994","Canada","(1990,1995]","salaried_worker",88.3
+"158","1994","France","(1990,1995]","salaried_worker",91.2
+"159","1994","Italy","(1990,1995]","salaried_worker",75.8
+"160","1994","Japan","(1990,1995]","salaried_worker",77.8
+"161","1994","Korea, Rep.","(1990,1995]","salaried_worker",58.5
+"162","1994","Norway","(1990,1995]","salaried_worker",93.6
+"163","1994","Spain","(1990,1995]","salaried_worker",76.1
+"164","1994","United Kingdom","(1990,1995]","salaried_worker",92.1
+"165","1994","United States","(1990,1995]","salaried_worker",92.9
+"166","1995","Australia","(1990,1995]","salaried_worker",87.9
+"167","1995","Belgium","(1990,1995]","salaried_worker",82.1
+"168","1995","Canada","(1990,1995]","salaried_worker",88.3
+"169","1995","France","(1990,1995]","salaried_worker",91.7
+"170","1995","Italy","(1990,1995]","salaried_worker",76.2
+"171","1995","Japan","(1990,1995]","salaried_worker",78.3
+"172","1995","Korea, Rep.","(1990,1995]","salaried_worker",59.1
+"173","1995","Norway","(1990,1995]","salaried_worker",93.8
+"174","1995","Spain","(1990,1995]","salaried_worker",76.5
+"175","1995","United Kingdom","(1990,1995]","salaried_worker",92.2
+"176","1995","United States","(1990,1995]","salaried_worker",93.1
+"177","1996","Australia","(1995,2000]","salaried_worker",88.1
+"178","1996","Belgium","(1995,2000]","salaried_worker",82.4
+"179","1996","Canada","(1995,2000]","salaried_worker",87.5
+"180","1996","France","(1995,2000]","salaried_worker",92.1
+"181","1996","Italy","(1995,2000]","salaried_worker",76.4
+"182","1996","Japan","(1995,2000]","salaried_worker",79.3
+"183","1996","Korea, Rep.","(1995,2000]","salaried_worker",59.5
+"184","1996","Norway","(1995,2000]","salaried_worker",94.4
+"185","1996","Spain","(1995,2000]","salaried_worker",77.7
+"186","1996","United Kingdom","(1995,2000]","salaried_worker",92.3
+"187","1996","United States","(1995,2000]","salaried_worker",93.1
+"188","1997","Australia","(1995,2000]","salaried_worker",87.8
+"189","1997","Belgium","(1995,2000]","salaried_worker",82.9
+"190","1997","Canada","(1995,2000]","salaried_worker",86.7
+"191","1997","France","(1995,2000]","salaried_worker",92.5
+"192","1997","Italy","(1995,2000]","salaried_worker",76.8
+"193","1997","Japan","(1995,2000]","salaried_worker",79.8
+"194","1997","Korea, Rep.","(1995,2000]","salaried_worker",59.8
+"195","1997","Norway","(1995,2000]","salaried_worker",94.8
+"196","1997","Spain","(1995,2000]","salaried_worker",79.5
+"197","1997","United Kingdom","(1995,2000]","salaried_worker",92.1
+"198","1997","United States","(1995,2000]","salaried_worker",93.3
+"199","1998","Australia","(1995,2000]","salaried_worker",88.6
+"200","1998","Belgium","(1995,2000]","salaried_worker",83.5
+"201","1998","Canada","(1995,2000]","salaried_worker",86.7
+"202","1998","France","(1995,2000]","salaried_worker",92.7
+"203","1998","Italy","(1995,2000]","salaried_worker",77
+"204","1998","Japan","(1995,2000]","salaried_worker",80
+"205","1998","Korea, Rep.","(1995,2000]","salaried_worker",58.1
+"206","1998","Norway","(1995,2000]","salaried_worker",94.6
+"207","1998","Spain","(1995,2000]","salaried_worker",80.1
+"208","1998","United Kingdom","(1995,2000]","salaried_worker",92.2
+"209","1998","United States","(1995,2000]","salaried_worker",93.6
+"210","1999","Australia","(1995,2000]","salaried_worker",88.9
+"211","1999","Belgium","(1995,2000]","salaried_worker",84.1
+"212","1999","Canada","(1995,2000]","salaried_worker",87.1
+"213","1999","France","(1995,2000]","salaried_worker",92.9
+"214","1999","Italy","(1995,2000]","salaried_worker",77.4
+"215","1999","Japan","(1995,2000]","salaried_worker",80.4
+"216","1999","Korea, Rep.","(1995,2000]","salaried_worker",59.6
+"217","1999","Norway","(1995,2000]","salaried_worker",95
+"218","1999","Spain","(1995,2000]","salaried_worker",82.1
+"219","1999","United Kingdom","(1995,2000]","salaried_worker",92.8
+"220","1999","United States","(1995,2000]","salaried_worker",93.8
+"221","2000","Australia","(1995,2000]","salaried_worker",89.3
+"222","2000","Belgium","(1995,2000]","salaried_worker",NA
+"223","2000","Canada","(1995,2000]","salaried_worker",87.7
+"224","2000","France","(1995,2000]","salaried_worker",93.1
+"225","2000","Italy","(1995,2000]","salaried_worker",78
+"226","2000","Japan","(1995,2000]","salaried_worker",81.4
+"227","2000","Korea, Rep.","(1995,2000]","salaried_worker",61.5
+"228","2000","Norway","(1995,2000]","salaried_worker",95
+"229","2000","Spain","(1995,2000]","salaried_worker",83.3
+"230","2000","United Kingdom","(1995,2000]","salaried_worker",92.6
+"231","2000","United States","(1995,2000]","salaried_worker",93.9
+"232","2001","Australia","(2000,2007]","salaried_worker",89.7
+"233","2001","Belgium","(2000,2007]","salaried_worker",NA
+"234","2001","Canada","(2000,2007]","salaried_worker",88.8
+"235","2001","France","(2000,2007]","salaried_worker",93.3
+"236","2001","Italy","(2000,2007]","salaried_worker",78.4
+"237","2001","Japan","(2000,2007]","salaried_worker",82.5
+"238","2001","Korea, Rep.","(2000,2007]","salaried_worker",62.4
+"239","2001","Norway","(2000,2007]","salaried_worker",94.9
+"240","2001","Spain","(2000,2007]","salaried_worker",83.7
+"241","2001","United Kingdom","(2000,2007]","salaried_worker",93
+"242","2001","United States","(2000,2007]","salaried_worker",93.9
+"243","2002","Australia","(2000,2007]","salaried_worker",89.6
+"244","2002","Belgium","(2000,2007]","salaried_worker",NA
+"245","2002","Canada","(2000,2007]","salaried_worker",88.6
+"246","2002","France","(2000,2007]","salaried_worker",93.2
+"247","2002","Italy","(2000,2007]","salaried_worker",78.8
+"248","2002","Japan","(2000,2007]","salaried_worker",83.3
+"249","2002","Korea, Rep.","(2000,2007]","salaried_worker",63.5
+"250","2002","Norway","(2000,2007]","salaried_worker",95.4
+"251","2002","Spain","(2000,2007]","salaried_worker",84.8
+"252","2002","United Kingdom","(2000,2007]","salaried_worker",93
+"253","2002","United States","(2000,2007]","salaried_worker",94.1
+"254","2003","Australia","(2000,2007]","salaried_worker",90
+"255","2003","Belgium","(2000,2007]","salaried_worker",NA
+"256","2003","Canada","(2000,2007]","salaried_worker",88.7
+"257","2003","France","(2000,2007]","salaried_worker",91.9
+"258","2003","Italy","(2000,2007]","salaried_worker",78.9
+"259","2003","Japan","(2000,2007]","salaried_worker",83.8
+"260","2003","Korea, Rep.","(2000,2007]","salaried_worker",65.5
+"261","2003","Norway","(2000,2007]","salaried_worker",95.4
+"262","2003","Spain","(2000,2007]","salaried_worker",85.4
+"263","2003","United Kingdom","(2000,2007]","salaried_worker",92.2
+"264","2003","United States","(2000,2007]","salaried_worker",93.9
+"265","2004","Australia","(2000,2007]","salaried_worker",90.2
+"266","2004","Belgium","(2000,2007]","salaried_worker",NA
+"267","2004","Canada","(2000,2007]","salaried_worker",88.8
+"268","2004","France","(2000,2007]","salaried_worker",92.4
+"269","2004","Italy","(2000,2007]","salaried_worker",77.8
+"270","2004","Japan","(2000,2007]","salaried_worker",84.2
+"271","2004","Korea, Rep.","(2000,2007]","salaried_worker",66.6
+"272","2004","Norway","(2000,2007]","salaried_worker",95.6
+"273","2004","Spain","(2000,2007]","salaried_worker",85.6
+"274","2004","United Kingdom","(2000,2007]","salaried_worker",92.2
+"275","2004","United States","(2000,2007]","salaried_worker",93.9
+"276","2005","Australia","(2000,2007]","salaried_worker",90.2
+"277","2005","Belgium","(2000,2007]","salaried_worker",87.7
+"278","2005","Canada","(2000,2007]","salaried_worker",88.6
+"279","2005","France","(2000,2007]","salaried_worker",92.5
+"280","2005","Italy","(2000,2007]","salaried_worker",79.4
+"281","2005","Japan","(2000,2007]","salaried_worker",84.7
+"282","2005","Korea, Rep.","(2000,2007]","salaried_worker",67.1
+"283","2005","Norway","(2000,2007]","salaried_worker",95.4
+"284","2005","Spain","(2000,2007]","salaried_worker",85.4
+"285","2005","United Kingdom","(2000,2007]","salaried_worker",92.3
+"286","2005","United States","(2000,2007]","salaried_worker",94.1
+"287","2006","Australia","(2000,2007]","salaried_worker",90.7
+"288","2006","Belgium","(2000,2007]","salaried_worker",88.2
+"289","2006","Canada","(2000,2007]","salaried_worker",88.7
+"290","2006","France","(2000,2007]","salaried_worker",92.3
+"291","2006","Italy","(2000,2007]","salaried_worker",79.5
+"292","2006","Japan","(2000,2007]","salaried_worker",85.9
+"293","2006","Korea, Rep.","(2000,2007]","salaried_worker",67.7
+"294","2006","Norway","(2000,2007]","salaried_worker",95.1
+"295","2006","Spain","(2000,2007]","salaried_worker",86.1
+"296","2006","United Kingdom","(2000,2007]","salaried_worker",92
+"297","2006","United States","(2000,2007]","salaried_worker",94
+"298","2007","Australia","(2000,2007]","salaried_worker",91
+"299","2007","Belgium","(2000,2007]","salaried_worker",NA
+"300","2007","Canada","(2000,2007]","salaried_worker",88.6
+"301","2007","France","(2000,2007]","salaried_worker",92.7
+"302","2007","Italy","(2000,2007]","salaried_worker",80
+"303","2007","Japan","(2000,2007]","salaried_worker",86.4
+"304","2007","Korea, Rep.","(2000,2007]","salaried_worker",68.8
+"305","2007","Norway","(2000,2007]","salaried_worker",95.3
+"306","2007","Spain","(2000,2007]","salaried_worker",86.5
+"307","2007","United Kingdom","(2000,2007]","salaried_worker",91.9
+"308","2007","United States","(2000,2007]","salaried_worker",94.2
+"309","1980","Australia","[1980,1985]","self_employed",12.7
+"310","1980","Belgium","[1980,1985]","self_employed",9.4
+"311","1980","Canada","[1980,1985]","self_employed",6
+"312","1980","France","[1980,1985]","self_employed",14.6
+"313","1980","Italy","[1980,1985]","self_employed",16
+"314","1980","Japan","[1980,1985]","self_employed",13.7
+"315","1980","Korea, Rep.","[1980,1985]","self_employed",23.3
+"316","1980","Norway","[1980,1985]","self_employed",4.3
+"317","1980","Spain","[1980,1985]","self_employed",15.5
+"318","1980","United Kingdom","[1980,1985]","self_employed",3.9
+"319","1980","United States","[1980,1985]","self_employed",5.4
+"320","1981","Australia","[1980,1985]","self_employed",12.2
+"321","1981","Belgium","[1980,1985]","self_employed",9.6
+"322","1981","Canada","[1980,1985]","self_employed",5.6
+"323","1981","France","[1980,1985]","self_employed",14.5
+"324","1981","Italy","[1980,1985]","self_employed",15.7
+"325","1981","Japan","[1980,1985]","self_employed",13.2
+"326","1981","Korea, Rep.","[1980,1985]","self_employed",22.9
+"327","1981","Norway","[1980,1985]","self_employed",4
+"328","1981","Spain","[1980,1985]","self_employed",15.6
+"329","1981","United Kingdom","[1980,1985]","self_employed",4.4
+"330","1981","United States","[1980,1985]","self_employed",5.6
+"331","1982","Australia","[1980,1985]","self_employed",12.2
+"332","1982","Belgium","[1980,1985]","self_employed",9.7
+"333","1982","Canada","[1980,1985]","self_employed",6
+"334","1982","France","[1980,1985]","self_employed",14.3
+"335","1982","Italy","[1980,1985]","self_employed",15.8
+"336","1982","Japan","[1980,1985]","self_employed",13.5
+"337","1982","Korea, Rep.","[1980,1985]","self_employed",23.7
+"338","1982","Norway","[1980,1985]","self_employed",4.5
+"339","1982","Spain","[1980,1985]","self_employed",15.5
+"340","1982","United Kingdom","[1980,1985]","self_employed",4.9
+"341","1982","United States","[1980,1985]","self_employed",5.8
+"342","1983","Australia","[1980,1985]","self_employed",12.1
+"343","1983","Belgium","[1980,1985]","self_employed",9.9
+"344","1983","Canada","[1980,1985]","self_employed",6.4
+"345","1983","France","[1980,1985]","self_employed",14
+"346","1983","Italy","[1980,1985]","self_employed",16.3
+"347","1983","Japan","[1980,1985]","self_employed",13.3
+"348","1983","Korea, Rep.","[1980,1985]","self_employed",23.5
+"349","1983","Norway","[1980,1985]","self_employed",4.3
+"350","1983","Spain","[1980,1985]","self_employed",16.4
+"351","1983","United Kingdom","[1980,1985]","self_employed",5.3
+"352","1983","United States","[1980,1985]","self_employed",6
+"353","1984","Australia","[1980,1985]","self_employed",11.8
+"354","1984","Belgium","[1980,1985]","self_employed",9.9
+"355","1984","Canada","[1980,1985]","self_employed",6.7
+"356","1984","France","[1980,1985]","self_employed",13.6
+"357","1984","Italy","[1980,1985]","self_employed",16.2
+"358","1984","Japan","[1980,1985]","self_employed",13
+"359","1984","Korea, Rep.","[1980,1985]","self_employed",21.4
+"360","1984","Norway","[1980,1985]","self_employed",4.2
+"361","1984","Spain","[1980,1985]","self_employed",16.7
+"362","1984","United Kingdom","[1980,1985]","self_employed",6.5
+"363","1984","United States","[1980,1985]","self_employed",6
+"364","1985","Australia","[1980,1985]","self_employed",12.1
+"365","1985","Belgium","[1980,1985]","self_employed",9.9
+"366","1985","Canada","[1980,1985]","self_employed",7.3
+"367","1985","France","[1980,1985]","self_employed",13.2
+"368","1985","Italy","[1980,1985]","self_employed",15.9
+"369","1985","Japan","[1980,1985]","self_employed",12.5
+"370","1985","Korea, Rep.","[1980,1985]","self_employed",21.3
+"371","1985","Norway","[1980,1985]","self_employed",3.9
+"372","1985","Spain","[1980,1985]","self_employed",16.8
+"373","1985","United Kingdom","[1980,1985]","self_employed",6.8
+"374","1985","United States","[1980,1985]","self_employed",6
+"375","1986","Australia","(1985,1990]","self_employed",11.9
+"376","1986","Belgium","(1985,1990]","self_employed",9.8
+"377","1986","Canada","(1985,1990]","self_employed",6.5
+"378","1986","France","(1985,1990]","self_employed",12.8
+"379","1986","Italy","(1985,1990]","self_employed",16.4
+"380","1986","Japan","(1985,1990]","self_employed",12.3
+"381","1986","Korea, Rep.","(1985,1990]","self_employed",22.8
+"382","1986","Norway","(1985,1990]","self_employed",3.9
+"383","1986","Spain","(1985,1990]","self_employed",17.2
+"384","1986","United Kingdom","(1985,1990]","self_employed",6.6
+"385","1986","United States","(1985,1990]","self_employed",5.8
+"386","1987","Australia","(1985,1990]","self_employed",11.4
+"387","1987","Belgium","(1985,1990]","self_employed",9.7
+"388","1987","Canada","(1985,1990]","self_employed",8.5
+"389","1987","France","(1985,1990]","self_employed",12.5
+"390","1987","Italy","(1985,1990]","self_employed",16.4
+"391","1987","Japan","(1985,1990]","self_employed",12.1
+"392","1987","Korea, Rep.","(1985,1990]","self_employed",22.5
+"393","1987","Norway","(1985,1990]","self_employed",4.1
+"394","1987","Spain","(1985,1990]","self_employed",17.9
+"395","1987","United Kingdom","(1985,1990]","self_employed",7.2
+"396","1987","United States","(1985,1990]","self_employed",6
+"397","1988","Australia","(1985,1990]","self_employed",11.5
+"398","1988","Belgium","(1985,1990]","self_employed",9.6
+"399","1988","Canada","(1985,1990]","self_employed",8.9
+"400","1988","France","(1985,1990]","self_employed",12.2
+"401","1988","Italy","(1985,1990]","self_employed",16.4
+"402","1988","Japan","(1985,1990]","self_employed",11.8
+"403","1988","Korea, Rep.","(1985,1990]","self_employed",21.5
+"404","1988","Norway","(1985,1990]","self_employed",4.9
+"405","1988","Spain","(1985,1990]","self_employed",17.9
+"406","1988","United Kingdom","(1985,1990]","self_employed",7.2
+"407","1988","United States","(1985,1990]","self_employed",6.1
+"408","1989","Australia","(1985,1990]","self_employed",11
+"409","1989","Belgium","(1985,1990]","self_employed",9.6
+"410","1989","Canada","(1985,1990]","self_employed",8.8
+"411","1989","France","(1985,1990]","self_employed",11.6
+"412","1989","Italy","(1985,1990]","self_employed",16.8
+"413","1989","Japan","(1985,1990]","self_employed",11.4
+"414","1989","Korea, Rep.","(1985,1990]","self_employed",19.2
+"415","1989","Norway","(1985,1990]","self_employed",4.6
+"416","1989","Spain","(1985,1990]","self_employed",16.5
+"417","1989","United Kingdom","(1985,1990]","self_employed",7.3
+"418","1989","United States","(1985,1990]","self_employed",6.2
+"419","1990","Australia","(1985,1990]","self_employed",10.9
+"420","1990","Belgium","(1985,1990]","self_employed",9.5
+"421","1990","Canada","(1985,1990]","self_employed",9.2
+"422","1990","France","(1985,1990]","self_employed",11
+"423","1990","Italy","(1985,1990]","self_employed",16.6
+"424","1990","Japan","(1985,1990]","self_employed",10.7
+"425","1990","Korea, Rep.","(1985,1990]","self_employed",18.7
+"426","1990","Norway","(1985,1990]","self_employed",4.8
+"427","1990","Spain","(1985,1990]","self_employed",15.7
+"428","1990","United Kingdom","(1985,1990]","self_employed",7.4
+"429","1990","United States","(1985,1990]","self_employed",6.2
+"430","1991","Australia","(1990,1995]","self_employed",11.4
+"431","1991","Belgium","(1990,1995]","self_employed",9.6
+"432","1991","Canada","(1990,1995]","self_employed",9.3
+"433","1991","France","(1990,1995]","self_employed",10.4
+"434","1991","Italy","(1990,1995]","self_employed",16.5
+"435","1991","Japan","(1990,1995]","self_employed",10.2
+"436","1991","Korea, Rep.","(1990,1995]","self_employed",18.9
+"437","1991","Norway","(1990,1995]","self_employed",4.8
+"438","1991","Spain","(1990,1995]","self_employed",15.5
+"439","1991","United Kingdom","(1990,1995]","self_employed",7.1
+"440","1991","United States","(1990,1995]","self_employed",6.3
+"441","1992","Australia","(1990,1995]","self_employed",11.5
+"442","1992","Belgium","(1990,1995]","self_employed",9.6
+"443","1992","Canada","(1990,1995]","self_employed",9.7
+"444","1992","France","(1990,1995]","self_employed",9.8
+"445","1992","Italy","(1990,1995]","self_employed",16.5
+"446","1992","Japan","(1990,1995]","self_employed",10.1
+"447","1992","Korea, Rep.","(1990,1995]","self_employed",19.6
+"448","1992","Norway","(1990,1995]","self_employed",4.6
+"449","1992","Spain","(1990,1995]","self_employed",15.7
+"450","1992","United Kingdom","(1990,1995]","self_employed",6.9
+"451","1992","United States","(1990,1995]","self_employed",5.9
+"452","1993","Australia","(1990,1995]","self_employed",11.7
+"453","1993","Belgium","(1990,1995]","self_employed",9.8
+"454","1993","Canada","(1990,1995]","self_employed",10.3
+"455","1993","France","(1990,1995]","self_employed",9.2
+"456","1993","Italy","(1990,1995]","self_employed",15.8
+"457","1993","Japan","(1990,1995]","self_employed",9.6
+"458","1993","Korea, Rep.","(1990,1995]","self_employed",18.8
+"459","1993","Norway","(1990,1995]","self_employed",4.8
+"460","1993","Spain","(1990,1995]","self_employed",16
+"461","1993","United Kingdom","(1990,1995]","self_employed",7
+"462","1993","United States","(1990,1995]","self_employed",6
+"463","1994","Australia","(1990,1995]","self_employed",11.2
+"464","1994","Belgium","(1990,1995]","self_employed",10
+"465","1994","Canada","(1990,1995]","self_employed",11
+"466","1994","France","(1990,1995]","self_employed",8.8
+"467","1994","Italy","(1990,1995]","self_employed",16.2
+"468","1994","Japan","(1990,1995]","self_employed",9.1
+"469","1994","Korea, Rep.","(1990,1995]","self_employed",18.8
+"470","1994","Norway","(1990,1995]","self_employed",4.5
+"471","1994","Spain","(1990,1995]","self_employed",16.1
+"472","1994","United Kingdom","(1990,1995]","self_employed",7.1
+"473","1994","United States","(1990,1995]","self_employed",6.9
+"474","1995","Australia","(1990,1995]","self_employed",10.8
+"475","1995","Belgium","(1990,1995]","self_employed",10
+"476","1995","Canada","(1990,1995]","self_employed",11
+"477","1995","France","(1990,1995]","self_employed",8.3
+"478","1995","Italy","(1990,1995]","self_employed",16.4
+"479","1995","Japan","(1990,1995]","self_employed",9
+"480","1995","Korea, Rep.","(1990,1995]","self_employed",19.6
+"481","1995","Norway","(1990,1995]","self_employed",4.8
+"482","1995","Spain","(1990,1995]","self_employed",16.7
+"483","1995","United Kingdom","(1990,1995]","self_employed",7
+"484","1995","United States","(1990,1995]","self_employed",6.7
+"485","1996","Australia","(1995,2000]","self_employed",10.7
+"486","1996","Belgium","(1995,2000]","self_employed",10
+"487","1996","Canada","(1995,2000]","self_employed",11.8
+"488","1996","France","(1995,2000]","self_employed",7.9
+"489","1996","Italy","(1995,2000]","self_employed",16.5
+"490","1996","Japan","(1995,2000]","self_employed",8.5
+"491","1996","Korea, Rep.","(1995,2000]","self_employed",19.9
+"492","1996","Norway","(1995,2000]","self_employed",4.3
+"493","1996","Spain","(1995,2000]","self_employed",16
+"494","1996","United Kingdom","(1995,2000]","self_employed",7
+"495","1996","United States","(1995,2000]","self_employed",6.7
+"496","1997","Australia","(1995,2000]","self_employed",11
+"497","1997","Belgium","(1995,2000]","self_employed",10
+"498","1997","Canada","(1995,2000]","self_employed",12.5
+"499","1997","France","(1995,2000]","self_employed",7.5
+"500","1997","Italy","(1995,2000]","self_employed",16.4
+"501","1997","Japan","(1995,2000]","self_employed",8.3
+"502","1997","Korea, Rep.","(1995,2000]","self_employed",20.5
+"503","1997","Norway","(1995,2000]","self_employed",4.4
+"504","1997","Spain","(1995,2000]","self_employed",15.1
+"505","1997","United Kingdom","(1995,2000]","self_employed",7.2
+"506","1997","United States","(1995,2000]","self_employed",6.6
+"507","1998","Australia","(1995,2000]","self_employed",10.4
+"508","1998","Belgium","(1995,2000]","self_employed",9.7
+"509","1998","Canada","(1995,2000]","self_employed",12.6
+"510","1998","France","(1995,2000]","self_employed",7.3
+"511","1998","Italy","(1995,2000]","self_employed",16.4
+"512","1998","Japan","(1995,2000]","self_employed",8.4
+"513","1998","Korea, Rep.","(1995,2000]","self_employed",19.5
+"514","1998","Norway","(1995,2000]","self_employed",4.3
+"515","1998","Spain","(1995,2000]","self_employed",14.8
+"516","1998","United Kingdom","(1995,2000]","self_employed",7.2
+"517","1998","United States","(1995,2000]","self_employed",6.3
+"518","1999","Australia","(1995,2000]","self_employed",9.9
+"519","1999","Belgium","(1995,2000]","self_employed",9.5
+"520","1999","Canada","(1995,2000]","self_employed",12.4
+"521","1999","France","(1995,2000]","self_employed",7.1
+"522","1999","Italy","(1995,2000]","self_employed",16.6
+"523","1999","Japan","(1995,2000]","self_employed",8.2
+"524","1999","Korea, Rep.","(1995,2000]","self_employed",20
+"525","1999","Norway","(1995,2000]","self_employed",4.4
+"526","1999","Spain","(1995,2000]","self_employed",13.7
+"527","1999","United Kingdom","(1995,2000]","self_employed",6.7
+"528","1999","United States","(1995,2000]","self_employed",6.1
+"529","2000","Australia","(1995,2000]","self_employed",9.6
+"530","2000","Belgium","(1995,2000]","self_employed",NA
+"531","2000","Canada","(1995,2000]","self_employed",11.9
+"532","2000","France","(1995,2000]","self_employed",6.9
+"533","2000","Italy","(1995,2000]","self_employed",16.1
+"534","2000","Japan","(1995,2000]","self_employed",7.8
+"535","2000","Korea, Rep.","(1995,2000]","self_employed",19.2
+"536","2000","Norway","(1995,2000]","self_employed",4.4
+"537","2000","Spain","(1995,2000]","self_employed",12.9
+"538","2000","United Kingdom","(1995,2000]","self_employed",6.8
+"539","2000","United States","(1995,2000]","self_employed",6
+"540","2001","Australia","(2000,2007]","self_employed",9.6
+"541","2001","Belgium","(2000,2007]","self_employed",NA
+"542","2001","Canada","(2000,2007]","self_employed",10.9
+"543","2001","France","(2000,2007]","self_employed",6.7
+"544","2001","Italy","(2000,2007]","self_employed",15.6
+"545","2001","Japan","(2000,2007]","self_employed",7.2
+"546","2001","Korea, Rep.","(2000,2007]","self_employed",19.5
+"547","2001","Norway","(2000,2007]","self_employed",4.2
+"548","2001","Spain","(2000,2007]","self_employed",12.9
+"549","2001","United Kingdom","(2000,2007]","self_employed",6.5
+"550","2001","United States","(2000,2007]","self_employed",5.9
+"551","2002","Australia","(2000,2007]","self_employed",9.8
+"552","2002","Belgium","(2000,2007]","self_employed",NA
+"553","2002","Canada","(2000,2007]","self_employed",11.1
+"554","2002","France","(2000,2007]","self_employed",6.8
+"555","2002","Italy","(2000,2007]","self_employed",15.3
+"556","2002","Japan","(2000,2007]","self_employed",6.7
+"557","2002","Korea, Rep.","(2000,2007]","self_employed",19.4
+"558","2002","Norway","(2000,2007]","self_employed",3.7
+"559","2002","Spain","(2000,2007]","self_employed",12.2
+"560","2002","United Kingdom","(2000,2007]","self_employed",6.5
+"561","2002","United States","(2000,2007]","self_employed",5.8
+"562","2003","Australia","(2000,2007]","self_employed",9.5
+"563","2003","Belgium","(2000,2007]","self_employed",NA
+"564","2003","Canada","(2000,2007]","self_employed",11
+"565","2003","France","(2000,2007]","self_employed",6.1
+"566","2003","Italy","(2000,2007]","self_employed",15.3
+"567","2003","Japan","(2000,2007]","self_employed",6.6
+"568","2003","Korea, Rep.","(2000,2007]","self_employed",17.8
+"569","2003","Norway","(2000,2007]","self_employed",3.9
+"570","2003","Spain","(2000,2007]","self_employed",11.8
+"571","2003","United Kingdom","(2000,2007]","self_employed",7.4
+"572","2003","United States","(2000,2007]","self_employed",6
+"573","2004","Australia","(2000,2007]","self_employed",9.3
+"574","2004","Belgium","(2000,2007]","self_employed",NA
+"575","2004","Canada","(2000,2007]","self_employed",11
+"576","2004","France","(2000,2007]","self_employed",5.8
+"577","2004","Italy","(2000,2007]","self_employed",15.2
+"578","2004","Japan","(2000,2007]","self_employed",6.5
+"579","2004","Korea, Rep.","(2000,2007]","self_employed",18.6
+"580","2004","Norway","(2000,2007]","self_employed",4
+"581","2004","Spain","(2000,2007]","self_employed",11.9
+"582","2004","United Kingdom","(2000,2007]","self_employed",7.4
+"583","2004","United States","(2000,2007]","self_employed",6
+"584","2005","Australia","(2000,2007]","self_employed",9.3
+"585","2005","Belgium","(2000,2007]","self_employed",8.9
+"586","2005","Canada","(2000,2007]","self_employed",11.2
+"587","2005","France","(2000,2007]","self_employed",5.9
+"588","2005","Italy","(2000,2007]","self_employed",14.7
+"589","2005","Japan","(2000,2007]","self_employed",6.3
+"590","2005","Korea, Rep.","(2000,2007]","self_employed",19
+"591","2005","Norway","(2000,2007]","self_employed",4.2
+"592","2005","Spain","(2000,2007]","self_employed",12.1
+"593","2005","United Kingdom","(2000,2007]","self_employed",7.2
+"594","2005","United States","(2000,2007]","self_employed",5.8
+"595","2006","Australia","(2000,2007]","self_employed",8.9
+"596","2006","Belgium","(2000,2007]","self_employed",8.9
+"597","2006","Canada","(2000,2007]","self_employed",11.1
+"598","2006","France","(2000,2007]","self_employed",6.2
+"599","2006","Italy","(2000,2007]","self_employed",14.6
+"600","2006","Japan","(2000,2007]","self_employed",6
+"601","2006","Korea, Rep.","(2000,2007]","self_employed",18.8
+"602","2006","Norway","(2000,2007]","self_employed",4.4
+"603","2006","Spain","(2000,2007]","self_employed",11.8
+"604","2006","United Kingdom","(2000,2007]","self_employed",7.6
+"605","2006","United States","(2000,2007]","self_employed",5.9
+"606","2007","Australia","(2000,2007]","self_employed",8.7
+"607","2007","Belgium","(2000,2007]","self_employed",NA
+"608","2007","Canada","(2000,2007]","self_employed",11.2
+"609","2007","France","(2000,2007]","self_employed",6.3
+"610","2007","Italy","(2000,2007]","self_employed",14.4
+"611","2007","Japan","(2000,2007]","self_employed",5.8
+"612","2007","Korea, Rep.","(2000,2007]","self_employed",18.5
+"613","2007","Norway","(2000,2007]","self_employed",4.3
+"614","2007","Spain","(2000,2007]","self_employed",11.9
+"615","2007","United Kingdom","(2000,2007]","self_employed",7.7
+"616","2007","United States","(2000,2007]","self_employed",5.7
+"617","1980","Australia","[1980,1985]","family_workers",0.6
+"618","1980","Belgium","[1980,1985]","family_workers",8
+"619","1980","Canada","[1980,1985]","family_workers",2
+"620","1980","France","[1980,1985]","family_workers",0
+"621","1980","Italy","[1980,1985]","family_workers",11.1
+"622","1980","Japan","[1980,1985]","family_workers",22.9
+"623","1980","Korea, Rep.","[1980,1985]","family_workers",37.4
+"624","1980","Norway","[1980,1985]","family_workers",6.2
+"625","1980","Spain","[1980,1985]","family_workers",19.6
+"626","1980","United Kingdom","[1980,1985]","family_workers",NA
+"627","1980","United States","[1980,1985]","family_workers",1.3
+"628","1981","Australia","[1980,1985]","family_workers",0.7
+"629","1981","Belgium","[1980,1985]","family_workers",8.1
+"630","1981","Canada","[1980,1985]","family_workers",2.1
+"631","1981","France","[1980,1985]","family_workers",0
+"632","1981","Italy","[1980,1985]","family_workers",10.8
+"633","1981","Japan","[1980,1985]","family_workers",22.3
+"634","1981","Korea, Rep.","[1980,1985]","family_workers",38.2
+"635","1981","Norway","[1980,1985]","family_workers",6.2
+"636","1981","Spain","[1980,1985]","family_workers",19.5
+"637","1981","United Kingdom","[1980,1985]","family_workers",NA
+"638","1981","United States","[1980,1985]","family_workers",1.2
+"639","1982","Australia","[1980,1985]","family_workers",0.6
+"640","1982","Belgium","[1980,1985]","family_workers",8.2
+"641","1982","Canada","[1980,1985]","family_workers",2
+"642","1982","France","[1980,1985]","family_workers",0
+"643","1982","Italy","[1980,1985]","family_workers",10.2
+"644","1982","Japan","[1980,1985]","family_workers",22
+"645","1982","Korea, Rep.","[1980,1985]","family_workers",36.4
+"646","1982","Norway","[1980,1985]","family_workers",5.2
+"647","1982","Spain","[1980,1985]","family_workers",18.6
+"648","1982","United Kingdom","[1980,1985]","family_workers",NA
+"649","1982","United States","[1980,1985]","family_workers",1.2
+"650","1983","Australia","[1980,1985]","family_workers",0.6
+"651","1983","Belgium","[1980,1985]","family_workers",8.3
+"652","1983","Canada","[1980,1985]","family_workers",1.8
+"653","1983","France","[1980,1985]","family_workers",0
+"654","1983","Italy","[1980,1985]","family_workers",10.5
+"655","1983","Japan","[1980,1985]","family_workers",20.8
+"656","1983","Korea, Rep.","[1980,1985]","family_workers",33.9
+"657","1983","Norway","[1980,1985]","family_workers",4.6
+"658","1983","Spain","[1980,1985]","family_workers",18
+"659","1983","United Kingdom","[1980,1985]","family_workers",0.1
+"660","1983","United States","[1980,1985]","family_workers",1.1
+"661","1984","Australia","[1980,1985]","family_workers",0.4
+"662","1984","Belgium","[1980,1985]","family_workers",8.4
+"663","1984","Canada","[1980,1985]","family_workers",1.7
+"664","1984","France","[1980,1985]","family_workers",0
+"665","1984","Italy","[1980,1985]","family_workers",11.1
+"666","1984","Japan","[1980,1985]","family_workers",20.3
+"667","1984","Korea, Rep.","[1980,1985]","family_workers",32.5
+"668","1984","Norway","[1980,1985]","family_workers",4.6
+"669","1984","Spain","[1980,1985]","family_workers",16.9
+"670","1984","United Kingdom","[1980,1985]","family_workers",1.3
+"671","1984","United States","[1980,1985]","family_workers",0.9
+"672","1985","Australia","[1980,1985]","family_workers",0.6
+"673","1985","Belgium","[1980,1985]","family_workers",8.3
+"674","1985","Canada","[1980,1985]","family_workers",1.8
+"675","1985","France","[1980,1985]","family_workers",0
+"676","1985","Italy","[1980,1985]","family_workers",10.5
+"677","1985","Japan","[1980,1985]","family_workers",20
+"678","1985","Korea, Rep.","[1980,1985]","family_workers",30.6
+"679","1985","Norway","[1980,1985]","family_workers",4
+"680","1985","Spain","[1980,1985]","family_workers",16.1
+"681","1985","United Kingdom","[1980,1985]","family_workers",1.4
+"682","1985","United States","[1980,1985]","family_workers",0.8
+"683","1986","Australia","(1985,1990]","family_workers",1.3
+"684","1986","Belgium","(1985,1990]","family_workers",8.3
+"685","1986","Canada","(1985,1990]","family_workers",1.5
+"686","1986","France","(1985,1990]","family_workers",0
+"687","1986","Italy","(1985,1990]","family_workers",10.2
+"688","1986","Japan","(1985,1990]","family_workers",19.4
+"689","1986","Korea, Rep.","(1985,1990]","family_workers",29.2
+"690","1986","Norway","(1985,1990]","family_workers",4.9
+"691","1986","Spain","(1985,1990]","family_workers",14.2
+"692","1986","United Kingdom","(1985,1990]","family_workers",1.3
+"693","1986","United States","(1985,1990]","family_workers",0.7
+"694","1987","Australia","(1985,1990]","family_workers",1.4
+"695","1987","Belgium","(1985,1990]","family_workers",8.2
+"696","1987","Canada","(1985,1990]","family_workers",1.4
+"697","1987","France","(1985,1990]","family_workers",0
+"698","1987","Italy","(1985,1990]","family_workers",9.7
+"699","1987","Japan","(1985,1990]","family_workers",19.3
+"700","1987","Korea, Rep.","(1985,1990]","family_workers",27.4
+"701","1987","Norway","(1985,1990]","family_workers",3.6
+"702","1987","Spain","(1985,1990]","family_workers",13.3
+"703","1987","United Kingdom","(1985,1990]","family_workers",1.8
+"704","1987","United States","(1985,1990]","family_workers",0.6
+"705","1988","Australia","(1985,1990]","family_workers",1.4
+"706","1988","Belgium","(1985,1990]","family_workers",8
+"707","1988","Canada","(1985,1990]","family_workers",1.1
+"708","1988","France","(1985,1990]","family_workers",0
+"709","1988","Italy","(1985,1990]","family_workers",9.1
+"710","1988","Japan","(1985,1990]","family_workers",18.6
+"711","1988","Korea, Rep.","(1985,1990]","family_workers",27.3
+"712","1988","Norway","(1985,1990]","family_workers",3.5
+"713","1988","Spain","(1985,1990]","family_workers",12.7
+"714","1988","United Kingdom","(1985,1990]","family_workers",1.9
+"715","1988","United States","(1985,1990]","family_workers",0.6
+"716","1989","Australia","(1985,1990]","family_workers",1.2
+"717","1989","Belgium","(1985,1990]","family_workers",8.1
+"718","1989","Canada","(1985,1990]","family_workers",1
+"719","1989","France","(1985,1990]","family_workers",0
+"720","1989","Italy","(1985,1990]","family_workers",8
+"721","1989","Japan","(1985,1990]","family_workers",17.7
+"722","1989","Korea, Rep.","(1985,1990]","family_workers",25.6
+"723","1989","Norway","(1985,1990]","family_workers",3.1
+"724","1989","Spain","(1985,1990]","family_workers",11.7
+"725","1989","United Kingdom","(1985,1990]","family_workers",1.6
+"726","1989","United States","(1985,1990]","family_workers",0.6
+"727","1990","Australia","(1985,1990]","family_workers",1.2
+"728","1990","Belgium","(1985,1990]","family_workers",8
+"729","1990","Canada","(1985,1990]","family_workers",0.9
+"730","1990","France","(1985,1990]","family_workers",0
+"731","1990","Italy","(1985,1990]","family_workers",7.5
+"732","1990","Japan","(1985,1990]","family_workers",16.7
+"733","1990","Korea, Rep.","(1985,1990]","family_workers",24.5
+"734","1990","Norway","(1985,1990]","family_workers",2.6
+"735","1990","Spain","(1985,1990]","family_workers",10.6
+"736","1990","United Kingdom","(1985,1990]","family_workers",1.5
+"737","1990","United States","(1985,1990]","family_workers",0.5
+"738","1991","Australia","(1990,1995]","family_workers",1.2
+"739","1991","Belgium","(1990,1995]","family_workers",8.1
+"740","1991","Canada","(1990,1995]","family_workers",0.9
+"741","1991","France","(1990,1995]","family_workers",0
+"742","1991","Italy","(1990,1995]","family_workers",7.3
+"743","1991","Japan","(1990,1995]","family_workers",15.5
+"744","1991","Korea, Rep.","(1990,1995]","family_workers",23.7
+"745","1991","Norway","(1990,1995]","family_workers",2
+"746","1991","Spain","(1990,1995]","family_workers",9.6
+"747","1991","United Kingdom","(1990,1995]","family_workers",1.5
+"748","1991","United States","(1990,1995]","family_workers",0.5
+"749","1992","Australia","(1990,1995]","family_workers",1.4
+"750","1992","Belgium","(1990,1995]","family_workers",8.1
+"751","1992","Canada","(1990,1995]","family_workers",0.8
+"752","1992","France","(1990,1995]","family_workers",0
+"753","1992","Italy","(1990,1995]","family_workers",7.1
+"754","1992","Japan","(1990,1995]","family_workers",14.3
+"755","1992","Korea, Rep.","(1990,1995]","family_workers",22.9
+"756","1992","Norway","(1990,1995]","family_workers",1.9
+"757","1992","Spain","(1990,1995]","family_workers",8.7
+"758","1992","United Kingdom","(1990,1995]","family_workers",1.1
+"759","1992","United States","(1990,1995]","family_workers",0.5
+"760","1993","Australia","(1990,1995]","family_workers",1.4
+"761","1993","Belgium","(1990,1995]","family_workers",8.3
+"762","1993","Canada","(1990,1995]","family_workers",0.9
+"763","1993","France","(1990,1995]","family_workers",0
+"764","1993","Italy","(1990,1995]","family_workers",8.4
+"765","1993","Japan","(1990,1995]","family_workers",13.1
+"766","1993","Korea, Rep.","(1990,1995]","family_workers",23.8
+"767","1993","Norway","(1990,1995]","family_workers",1.7
+"768","1993","Spain","(1990,1995]","family_workers",8.2
+"769","1993","United Kingdom","(1990,1995]","family_workers",0.9
+"770","1993","United States","(1990,1995]","family_workers",0.4
+"771","1994","Australia","(1990,1995]","family_workers",1.4
+"772","1994","Belgium","(1990,1995]","family_workers",7.9
+"773","1994","Canada","(1990,1995]","family_workers",0.7
+"774","1994","France","(1990,1995]","family_workers",0
+"775","1994","Italy","(1990,1995]","family_workers",8
+"776","1994","Japan","(1990,1995]","family_workers",12.8
+"777","1994","Korea, Rep.","(1990,1995]","family_workers",22.7
+"778","1994","Norway","(1990,1995]","family_workers",1.3
+"779","1994","Spain","(1990,1995]","family_workers",7.5
+"780","1994","United Kingdom","(1990,1995]","family_workers",0.8
+"781","1994","United States","(1990,1995]","family_workers",0.2
+"782","1995","Australia","(1990,1995]","family_workers",1.3
+"783","1995","Belgium","(1990,1995]","family_workers",7.8
+"784","1995","Canada","(1990,1995]","family_workers",0.7
+"785","1995","France","(1990,1995]","family_workers",0
+"786","1995","Italy","(1990,1995]","family_workers",7.4
+"787","1995","Japan","(1990,1995]","family_workers",12.5
+"788","1995","Korea, Rep.","(1990,1995]","family_workers",21.3
+"789","1995","Norway","(1990,1995]","family_workers",1.3
+"790","1995","Spain","(1990,1995]","family_workers",6.5
+"791","1995","United Kingdom","(1990,1995]","family_workers",0.8
+"792","1995","United States","(1990,1995]","family_workers",0.2
+"793","1996","Australia","(1995,2000]","family_workers",1.2
+"794","1996","Belgium","(1995,2000]","family_workers",7.6
+"795","1996","Canada","(1995,2000]","family_workers",0.7
+"796","1996","France","(1995,2000]","family_workers",0
+"797","1996","Italy","(1995,2000]","family_workers",7.1
+"798","1996","Japan","(1995,2000]","family_workers",12
+"799","1996","Korea, Rep.","(1995,2000]","family_workers",20.6
+"800","1996","Norway","(1995,2000]","family_workers",1.3
+"801","1996","Spain","(1995,2000]","family_workers",5.9
+"802","1996","United Kingdom","(1995,2000]","family_workers",0.7
+"803","1996","United States","(1995,2000]","family_workers",0.2
+"804","1997","Australia","(1995,2000]","family_workers",1.3
+"805","1997","Belgium","(1995,2000]","family_workers",7.2
+"806","1997","Canada","(1995,2000]","family_workers",0.7
+"807","1997","France","(1995,2000]","family_workers",0
+"808","1997","Italy","(1995,2000]","family_workers",6.8
+"809","1997","Japan","(1995,2000]","family_workers",11.6
+"810","1997","Korea, Rep.","(1995,2000]","family_workers",19.7
+"811","1997","Norway","(1995,2000]","family_workers",0.8
+"812","1997","Spain","(1995,2000]","family_workers",5.1
+"813","1997","United Kingdom","(1995,2000]","family_workers",0.7
+"814","1997","United States","(1995,2000]","family_workers",0.2
+"815","1998","Australia","(1995,2000]","family_workers",1
+"816","1998","Belgium","(1995,2000]","family_workers",6.7
+"817","1998","Canada","(1995,2000]","family_workers",0.7
+"818","1998","France","(1995,2000]","family_workers",0
+"819","1998","Italy","(1995,2000]","family_workers",6.6
+"820","1998","Japan","(1995,2000]","family_workers",11.3
+"821","1998","Korea, Rep.","(1995,2000]","family_workers",22.5
+"822","1998","Norway","(1995,2000]","family_workers",1
+"823","1998","Spain","(1995,2000]","family_workers",4.8
+"824","1998","United Kingdom","(1995,2000]","family_workers",0.6
+"825","1998","United States","(1995,2000]","family_workers",0.1
+"826","1999","Australia","(1995,2000]","family_workers",1.2
+"827","1999","Belgium","(1995,2000]","family_workers",6.4
+"828","1999","Canada","(1995,2000]","family_workers",0.5
+"829","1999","France","(1995,2000]","family_workers",0
+"830","1999","Italy","(1995,2000]","family_workers",6
+"831","1999","Japan","(1995,2000]","family_workers",11.1
+"832","1999","Korea, Rep.","(1995,2000]","family_workers",20.3
+"833","1999","Norway","(1995,2000]","family_workers",0.6
+"834","1999","Spain","(1995,2000]","family_workers",4.1
+"835","1999","United Kingdom","(1995,2000]","family_workers",0.5
+"836","1999","United States","(1995,2000]","family_workers",0.1
+"837","2000","Australia","(1995,2000]","family_workers",1.1
+"838","2000","Belgium","(1995,2000]","family_workers",NA
+"839","2000","Canada","(1995,2000]","family_workers",0.4
+"840","2000","France","(1995,2000]","family_workers",0
+"841","2000","Italy","(1995,2000]","family_workers",5.9
+"842","2000","Japan","(1995,2000]","family_workers",10.6
+"843","2000","Korea, Rep.","(1995,2000]","family_workers",19.2
+"844","2000","Norway","(1995,2000]","family_workers",0.5
+"845","2000","Spain","(1995,2000]","family_workers",3.7
+"846","2000","United Kingdom","(1995,2000]","family_workers",0.6
+"847","2000","United States","(1995,2000]","family_workers",0.1
+"848","2001","Australia","(2000,2007]","family_workers",0.7
+"849","2001","Belgium","(2000,2007]","family_workers",NA
+"850","2001","Canada","(2000,2007]","family_workers",0.3
+"851","2001","France","(2000,2007]","family_workers",0
+"852","2001","Italy","(2000,2007]","family_workers",6
+"853","2001","Japan","(2000,2007]","family_workers",10.1
+"854","2001","Korea, Rep.","(2000,2007]","family_workers",18.1
+"855","2001","Norway","(2000,2007]","family_workers",0.5
+"856","2001","Spain","(2000,2007]","family_workers",3.3
+"857","2001","United Kingdom","(2000,2007]","family_workers",0.5
+"858","2001","United States","(2000,2007]","family_workers",0.1
+"859","2002","Australia","(2000,2007]","family_workers",0.6
+"860","2002","Belgium","(2000,2007]","family_workers",NA
+"861","2002","Canada","(2000,2007]","family_workers",0.3
+"862","2002","France","(2000,2007]","family_workers",0
+"863","2002","Italy","(2000,2007]","family_workers",5.9
+"864","2002","Japan","(2000,2007]","family_workers",9.5
+"865","2002","Korea, Rep.","(2000,2007]","family_workers",17.1
+"866","2002","Norway","(2000,2007]","family_workers",0.5
+"867","2002","Spain","(2000,2007]","family_workers",2.9
+"868","2002","United Kingdom","(2000,2007]","family_workers",0.5
+"869","2002","United States","(2000,2007]","family_workers",0.1
+"870","2003","Australia","(2000,2007]","family_workers",0.5
+"871","2003","Belgium","(2000,2007]","family_workers",NA
+"872","2003","Canada","(2000,2007]","family_workers",0.3
+"873","2003","France","(2000,2007]","family_workers",1.9
+"874","2003","Italy","(2000,2007]","family_workers",5.8
+"875","2003","Japan","(2000,2007]","family_workers",9.2
+"876","2003","Korea, Rep.","(2000,2007]","family_workers",16.7
+"877","2003","Norway","(2000,2007]","family_workers",0.4
+"878","2003","Spain","(2000,2007]","family_workers",2.6
+"879","2003","United Kingdom","(2000,2007]","family_workers",0.4
+"880","2003","United States","(2000,2007]","family_workers",0.1
+"881","2004","Australia","(2000,2007]","family_workers",0.5
+"882","2004","Belgium","(2000,2007]","family_workers",NA
+"883","2004","Canada","(2000,2007]","family_workers",0.3
+"884","2004","France","(2000,2007]","family_workers",1.7
+"885","2004","Italy","(2000,2007]","family_workers",3.7
+"886","2004","Japan","(2000,2007]","family_workers",8.9
+"887","2004","Korea, Rep.","(2000,2007]","family_workers",14.8
+"888","2004","Norway","(2000,2007]","family_workers",0.3
+"889","2004","Spain","(2000,2007]","family_workers",2.4
+"890","2004","United Kingdom","(2000,2007]","family_workers",0.5
+"891","2004","United States","(2000,2007]","family_workers",0.1
+"892","2005","Australia","(2000,2007]","family_workers",0.4
+"893","2005","Belgium","(2000,2007]","family_workers",3.4
+"894","2005","Canada","(2000,2007]","family_workers",0.2
+"895","2005","France","(2000,2007]","family_workers",1.6
+"896","2005","Italy","(2000,2007]","family_workers",2.8
+"897","2005","Japan","(2000,2007]","family_workers",8.6
+"898","2005","Korea, Rep.","(2000,2007]","family_workers",14
+"899","2005","Norway","(2000,2007]","family_workers",0.3
+"900","2005","Spain","(2000,2007]","family_workers",2.4
+"901","2005","United Kingdom","(2000,2007]","family_workers",0.5
+"902","2005","United States","(2000,2007]","family_workers",0.1
+"903","2006","Australia","(2000,2007]","family_workers",0.4
+"904","2006","Belgium","(2000,2007]","family_workers",2.9
+"905","2006","Canada","(2000,2007]","family_workers",0.2
+"906","2006","France","(2000,2007]","family_workers",1.4
+"907","2006","Italy","(2000,2007]","family_workers",2.7
+"908","2006","Japan","(2000,2007]","family_workers",7.6
+"909","2006","Korea, Rep.","(2000,2007]","family_workers",13.5
+"910","2006","Norway","(2000,2007]","family_workers",0.5
+"911","2006","Spain","(2000,2007]","family_workers",1.9
+"912","2006","United Kingdom","(2000,2007]","family_workers",0.4
+"913","2006","United States","(2000,2007]","family_workers",0.1
+"914","2007","Australia","(2000,2007]","family_workers",0.4
+"915","2007","Belgium","(2000,2007]","family_workers",NA
+"916","2007","Canada","(2000,2007]","family_workers",0.2
+"917","2007","France","(2000,2007]","family_workers",1
+"918","2007","Italy","(2000,2007]","family_workers",2.6
+"919","2007","Japan","(2000,2007]","family_workers",7.3
+"920","2007","Korea, Rep.","(2000,2007]","family_workers",12.7
+"921","2007","Norway","(2000,2007]","family_workers",0.3
+"922","2007","Spain","(2000,2007]","family_workers",1.6
+"923","2007","United Kingdom","(2000,2007]","family_workers",0.5
+"924","2007","United States","(2000,2007]","family_workers",0.1
