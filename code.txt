@@ -1,0 +1,420 @@
+---
+output:
+  html_document: default
+  pdf_document: default
+---
+##Explore and Summarize Data Analysis using R  
+
+Analysis of Female labor force.
+
+An analysis was performed to understand  the distribution of female employment among the three distinct employment categories, across countries and to study the change in distribution over the years.The female labor employment data is collected from www.Gapminder.org.
+
+The desired data which is used for this analysis ,is obtained from three different files . 
+   
+The three files are 
+
+  - Female salaried workers.This file describes the percentage of all female labor that earns a salary from working.
+  
+  - Female self-employed .This file describes the percentage of all female labor that works as self-employed workers.
+  
+  - Female family workers.This file describes the percentage of all female labor that works as contributing family workers.
+    
+
+  
+```{r global_options, include=FALSE}
+knitr::opts_chunk$set(echo=FALSE, warning=FALSE, message=FALSE)
+#install.packages("varhandle")
+library(varhandle)
+library(reshape2)
+library(ggplot2)
+library(RColorBrewer)
+
+getwd()
+setwd('/Users/ambilurama/Documents/Nano/own_interest/salaried_social_self/')
+getwd()
+all_info_countries <-c('Australia','Belgium','Canada','Spain','France','Italy','Japan','Korea, Rep.','Norway','United Kingdom','United States')
+```
+
+The structure of salaried worker is shown below.
+
+```{r}
+# Processing of Female salaried workers
+salaried_worker<-read.csv('salaried employee.csv', header = T)
+names(salaried_worker)[1]<-"countries"
+salaried_worker <-subset(salaried_worker, countries%in% all_info_countries)
+names(salaried_worker)<-gsub("X","",names(salaried_worker))
+str(salaried_worker)
+salaried_worker$`1980`<-unfactor(salaried_worker$`1980`)
+salaried_worker$`1981`<-unfactor(salaried_worker$`1981`)
+salaried_worker$`1982`<-unfactor(salaried_worker$`1982`)
+
+modified_salaried_worker<- melt(salaried_worker,variable.name='year',value.name='salaried_worker')
+
+```
+Each data file includes data from 153 countries all over the world  from the year 1980 to 2007.
+  
+  
+The countries Australia, Belgium, Canada, Finland, France, Italy, Japan, Korea,Rep., Norway, United Kingdom  and United States are being considered for analysing the data, as they have almost complete data for the years 1980- 2007 in all three categories  .
+
+Each data file needs some sort of processing to proceed with our analysis. The column names needs to be changed and the datavalues corresponding to the year 1980,1981 and 1982 has to be converted from factor .
+The structure of self_employed is shown below.
+
+
+```{r}
+# Processing of Female self-employed workers
+self_employed<-read.csv('self employed.csv', header = T)
+names(self_employed)[1]<-"countries"
+self_employed <-subset(self_employed, countries%in% all_info_countries)
+names(self_employed)<-gsub("X","",names(self_employed))
+str(self_employed)
+self_employed$`1980`<-unfactor(self_employed$`1980`)
+self_employed$`1981`<-unfactor(self_employed$`1981`)
+self_employed$`1982`<-unfactor(self_employed$`1982`)
+```
+
+The first five rows of self_employed are displayed.
+
+```{r}
+modified_self_employed<- melt(self_employed,variable.name ='year',value.name='self_employed')
+head(self_employed,5)
+
+```
+
+The structure of service employ is shown below.
+
+
+```{r}
+# Processing of Female family workers
+getwd()
+family_workers<-read.csv(' Familyworkers.csv', header = T)
+names(family_workers)[1]<-"countries"
+family_workers <-subset(family_workers, countries%in% all_info_countries)
+names(family_workers)<-gsub("X","",names(family_workers))
+str(family_workers)
+family_workers$`1980`<-unfactor(family_workers$`1980`)
+family_workers$`1981`<-unfactor(family_workers$`1981`)
+family_workers$`1982`<-unfactor(family_workers$`1982`)
+
+
+
+
+modified_family_workers<- melt(family_workers,variable.name ='year',value.name = 'family_workers')
+
+```
+
+And then the data is converted to the required tidy form using melt.The three different files are combined together and thus becoming our desired dataset .
+
+A new variable called "Year category " has been created .  This variable segregates each year into one of the categories  1980-1985, 1985-1990 , 1990-1995 ,1995-2000 and 2000-2007.The same data is analysed with the  year category variable as well.
+
+The first five rows of our desired dataset are displayed .
+```{r }
+trial1 <- merge(modified_salaried_worker,modified_self_employed,by=c('year','countries'))
+All_info <- merge(trial1,modified_family_workers,by=c('year','countries'))
+
+All_info$year_cat <-cut(unfactor(All_info$year),breaks=c(1980,1985,1990,1995,2000,2007),
+                        include.lowest = TRUE)
+All_info$family_workers<-round(All_info$family_workers,1)
+All_info$self_employed<-round(All_info$self_employed,1)
+All_info$salaried_worker<-round(All_info$salaried_worker,1)
+
+head(All_info,5)
+write.csv(All_info, file = "female_workers.csv")
+```
+
+
+
+#salaried worker plots
+
+```{r}
+#salaried worker plots
+
+ggplot(aes(x=year,y=salaried_worker),data=All_info)+
+  geom_point(aes(color=countries))+
+  scale_color_brewer(palette="Set3")+
+  theme_dark()+
+  theme(axis.text.x =
+               element_text(size  = 10,
+                            angle = 90,
+                            hjust = 1,
+                            vjust = 1))+
+  ggtitle(" Distribution of salaried worker over the years")+
+  ylab("Salaried worker")+
+  ggsave("salaried worker.jpg")
+  
+```
+
+This scatterplot shows the distribution of salaried_worker vs year for all the countries .Each country is represented by a unique colour.As you can see, the salaried worker values above 80 are crowded and some of the data points are overlapping with other points. To see the patterns and datapoints clearly,it would be better to connect datapoints of a country with a line.
+
+```{r fig.width=8,fig.height= 7}
+#salaried worker plots
+
+ggplot(aes(x=year,y=salaried_worker),data=All_info)+
+  geom_point(aes(color=countries))+
+  geom_line(aes(group=countries,color=countries))+
+  scale_color_brewer(palette="Set3")+
+  theme_dark()+
+  theme(axis.text.x =
+               element_text(size  = 10,
+                            angle = 90,
+                            hjust = 1,
+                            vjust = 1))+
+   ggtitle(" Distribution of salaried worker over the years")+
+   ylab("Salaried worker")
+ggsave("Distribution of salaried worker.jpg")
+
+
+```
+
+
+In this plot ,the slopes are better visible and could be easily compared with one another.
+
+- Korea,Rep. , spain  and Japan have a high slopes showing the high rise of salaried workers over the years.
+
+- The broken line connection on Belgium  indicates the missing datapoints for the corresponding years.
+
+- United kingdom and canada show a slight down trend.
+
+- Except United kingdom ,United states and canada ,all the other countries show a rising trend for salaried worker.
+
+- Norway which was fourth top in the salaried worker values in 1980  has become the top in 2007 .
+
+
+```{r fig.width=8,fig.height= 7 }
+#salaried worker plots
+
+ggplot(aes(x=year,y=salaried_worker),data=All_info)+
+  geom_point(aes(color=countries))+
+  scale_color_brewer(palette="Set3")+
+  theme_dark()+
+  theme(axis.text.x =
+               element_text(size  = 8,
+                            angle = 90,
+                            hjust = 1,
+                            vjust = 1))+
+  facet_wrap(~countries,ncol=2)+
+  ggtitle(" Distribution of salaried worker over the years")+
+  ylab("Salaried worker")
+ggsave("1.jpg")
+
+```
+
+In this plot, the patterns of each country are clearly visible. This helps in understanding the trend.
+
+- Belgium has some missing datapoints for certain years.
+
+- United kingdom and canada show a slight down trend.
+
+- United states maintains the nearly same percentage of salaried workers every year.
+
+- Except United kingdom ,United states and canada ,all the other countries show a rising trend for salaried worker.
+
+- Spain ,Korea Rep. and Japan shows the high rise of salaried workers over the years.
+
+
+#Self- employed plots
+```{r fig.width=8,fig.height= 7 }
+#Self- employed plots
+
+ggplot(aes(x=year,y=self_employed),data=All_info)+
+  geom_point(aes(color=countries))+
+  geom_line(aes(group=countries,color=countries))+
+  scale_color_brewer(palette="Set3")+
+  theme_dark()+
+  theme(axis.text.x =
+               element_text(size  = 10,
+                            angle = 90,
+                            hjust = 1,
+                            vjust = 1))+
+  ggtitle(" Distribution of self employed over the years")+
+  ylab("Self employed")
+ggsave("self employed.jpg")
+
+
+```
+
+This plot shows the distribution of self employed vs year for all the countries. It shows
+
+- France and Japan show a deep drop than others.
+
+- United kingdom and canada show a clear rising trend.
+
+- Korea Rep. stays on top all these years, eventhough the self employed values drops over the years.
+
+- Norway has the least self employed values over the years.
+
+
+```{r fig.width=8,fig.height= 9 }
+#Self- employed plots
+
+ggplot(aes(x=year,y=self_employed),data=All_info)+
+  geom_point(aes(color=countries))+
+  scale_color_brewer(palette="Set3")+
+  theme_dark()+
+  theme(axis.text.x =
+               element_text(size  = 8,
+                            angle = 90,
+                            hjust = 1,
+                            vjust = 1))+
+  facet_wrap(~countries,ncol=2)+
+  ggtitle(" Distribution of self employed over the years")+
+  ylab("Self employed")
+ggsave("selfemployed.jpg")
+```
+
+In this plot, the patterns of each country are clearly visible. This helps in understanding the trend.
+
+- Belgium  has missing datapoints for certain years.
+
+- United states and Norway maintain  nearly same values over the years.
+
+- United kingdom and canada show a clear rising trend.canada show a better rising trend than United kingdom.
+
+# Family workers plots
+```{r fig.width=8,fig.height= 7 }
+# Family workers plots
+ggplot(aes(x=year,y=family_workers),data=na.omit(All_info))+
+  geom_point(aes(color=countries))+
+  geom_line(aes(group=countries,color=countries))+
+  scale_color_brewer(palette="Set3")+
+   theme_dark()+
+  theme(axis.text.x =
+               element_text(size  = 10,
+                            angle = 90,
+                            hjust = 1,
+                            vjust = 1))+
+  ggtitle(" Distribution of Family workers over the years")+
+  ylab("Family workers")
+ggsave("Family workers.jpg")
+```
+
+This plot shows the distribution of family workers vs year for all the countries. It shows
+
+- Korea Rep. stays on top for all the years eventhough its values drop over the years
+
+- Japan stays on second top for all the years.
+
+- France has a value of 0.0 until the year 2002 and raised to 1.9 showing downtrend thereafter.
+
+
+
+```{r fig.width=8,fig.height= 9}
+
+#family_workers plots
+
+ggplot(aes(x=year,y=family_workers),data=na.omit(All_info))+
+  geom_point(aes(color=countries))+
+  scale_color_brewer(palette="Set3")+
+  theme_dark()+
+  theme(axis.text.x =
+               element_text(size  = 8,
+                            angle = 90,
+                            hjust = 1,
+                            vjust = 1))+
+  facet_wrap(~countries,ncol=2)+
+  ggtitle(" Distribution of family workers over the years")+
+  ylab("family workers")
+ggsave("family_w.jpg")
+```
+
+In this plot, the patterns of each country are clearly visible. This helps in understanding the trend.
+
+- All the countries except france show a drastic downtrend from 1980 to 2007.
+
+- France show a downtrend from 2003 to 2007.
+
+- Australia,canada,united states ,france and united kingdom have values less than 2.
+
+
+
+
+#Multivariate plots
+
+The data needs to be  converted to long format to analyse the data through all categories of employment status.
+The first five rows are displayed from the new dataset.
+
+```{r}
+melt_df <-melt(All_info,id.vars =c("year","countries","year_cat") ,
+               variable.name ="Employment_status",value.name = "values")
+
+head(melt_df,5)
+write.csv(melt_df, file = "female_workers_multi.csv")
+```
+
+
+```{r fig.width=9,fig.height=12}
+# Using all the variables
+
+ggplot(melt_df, aes(year,values )) +
+  geom_point(aes(color=Employment_status))+
+  facet_wrap(~countries,ncol=2)+
+  theme(axis.text.x =
+               element_text(size  = 9,
+                            angle = 90,
+                            hjust = 1,
+                            vjust = 1))+
+  ggtitle(" Distribution of Employment status over the years for all the countries")+
+  theme(legend.background = element_rect(colour = "black"),
+        legend.title = element_text(face = "italic",size = 14),
+        legend.text = element_text( size = 12))+
+  theme(strip.text.x = element_text( size = 12,
+                                      hjust = 0.5, vjust = 0.5))+
+  xlab("Year")+
+  ylab("Values")
+ggsave("Employment status.jpg")
+```
+
+This plot shows the distribution of Employment status over the years for all the countries.There are few trends which are very common for all the countries.
+
+- Family workers values are lower than or overlapping with Self employed values for all the countries except Japan and korea, Rep.
+
+- Salaried worker values are higher than self-employed and family workers for all the countries.
+
+- Japan has lower self-employed values than family workers values for all the years.
+
+- family workers and Self employed values stay under 25 for all the countries except Korea, Rep whose family workers values are over 25.
+
+- Belgium has a overlapping values for self-employed and family_workers
+
+- The plot also shows some missing datapoints.
+
+```{r}
+
+```
+
+```{r fig.width=8,fig.height= 11}
+# Distribution of Employment status over the year category for all the countries
+ggplot(na.omit(melt_df), aes(year_cat,values ),group=Employment_status) +
+  geom_bar(aes(fill=Employment_status),stat="identity",position="dodge")+
+  facet_wrap(~countries,ncol=2)+
+  theme(axis.text.x =
+               element_text(size  = 8,
+                            angle = 45,
+                            hjust = 1,
+                            vjust = 1))+
+  ggtitle(" Distribution of Employment status over the year category for all the countries")+
+  xlab("Year category")+
+  theme(legend.background = element_rect(colour = "black"),
+        legend.title = element_text(face = "italic",size = 14),
+        legend.text = element_text( size = 12))+
+  theme(strip.text.x = element_text( size = 12,
+                                      hjust = 0.5, vjust = 0.5))+
+  ylab("Values")
+ggsave("Employment status_y.jpg")
+
+
+```
+
+This bar plot shows the distribution of Employment status over the year category for all the countries. 
+
+- Salaried_workers values are high for all the countries.
+
+- France has a value of zero for the years 1980-2000.
+
+- Family_workers values show a downtrend in 2007.
+
+
+```{r}
+ggplot(na.omit(melt_df), aes(Employment_status,values ),color=Employment_status) +
+  coord_polar(theta="y") 
+  
+```
