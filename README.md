@@ -2,6 +2,8 @@
 
 Explore and Summarize Data Analysis using R
 
+Conducted an Exploratory data analysis to explore relationships in one variable to multiple variables and to explore the female employment data for distributions, outliers, and anomalies. 
+
 Analysis of Female employment status across countries.
 
 An analysis was performed to understand the distribution of female employment among the three distinct employment categories, across countries and to study the change in distribution over the years.The female labor employment data is collected from http://www.Gapminder.org.
